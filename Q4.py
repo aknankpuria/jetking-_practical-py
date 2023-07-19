@@ -1,11 +1,6 @@
-# Define User-Defined Exceptions in Python Programming.
-  #we create own exceptions using the class Exception. it is created to force certain constraints like voting age etc.
+#  Write a Python Program to demonstrate how a user can
+# customize the exceptions using User-Defined Exceptions.
 
-
-#  syntax:
-
-# class ExceptionName(Exception):
-    # pass  
 
 
 class AgeTooSmallError(Exception):
@@ -21,4 +16,5 @@ try:
         print("You are eligible")
     
 except AgeTooSmallError as e:
-    print(e)    
+    print(e)  
+    #print(e.age)  

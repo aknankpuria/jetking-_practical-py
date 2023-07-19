@@ -1,0 +1,59 @@
+Q1.In Python Programming, how many types of errors are possible and define them.
+
+     #1 syntax error
+      syntax error occurs when the code is not in proper format.
+
+    #2 run time error also known as exception error
+      run time error occurs when the program is not able to run the code.
+    
+    #3 logical error
+      logical error occur when code runs without any error but we dont get desired output. 
+      the more explanation is defined in the program.
+
+    #4 type error
+       type error occur when try to do any operation that is not suitable for certain data type like we cant add int and str. 
+       coding example is defined in the program. 
+
+    #5 index error
+       it occurs when we try to access the index that is not present .
+
+    #6 key error 
+       it occurs when we try to access the the data associated with the key that is not present.
+
+       coding example has been given  in the program . 
+
+
+Q2 .What is an Exception and write the syntax of exception handling?
+    #Exception is an event that occurs when an error occurs in the program during runtime .
+
+    Syntax of Exception Handling :
+
+       try:
+          statements
+
+         except Exception:
+          statements
+    
+    Example of code has been given in the .py file 
+
+Q3. Define User-Defined Exceptions in Python Programming.
+
+    we create own exceptions using the class Exception. it is created to force certain constraints like voting age etc.
+
+        syntax:
+
+      class ExceptionName(Exception):
+         pass
+
+    we can raise these userdefined errors using raise keywords at certain condtions . it is more explained in the program . 
+
+
+Q4 . Write a Python Program to demonstrate how a user can
+customize the exceptions using User-Defined Exceptions.
+  
+ans- this question is almost same to question number 3 . coding example is given in both question number 3 and 4 are identical . you can reffer to any of those. 
+
+     theoretical answer is given in Q3 also included in the comments of whole code  . 
+
+     
+

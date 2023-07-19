@@ -28,6 +28,7 @@ div(16,2) #it will now throw error because we have not given any wrong values
 div(16,0) #it will now throw error because we have given 0 as value of b
 
 #3 logical error
+  
 
 
 
